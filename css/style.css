@@ -1,0 +1,421 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Genos', sans-serif;
+}
+header{
+	width: 100%;
+	text-align: center;
+	background-color: #E5E5CB;
+	height: 80px;
+	position: sticky;
+}	
+header a:hover {
+  color: #cfc276;
+
+}
+.active{
+	font-weight: 500;
+}
+.cleaner {
+	clear: both;
+
+}
+
+#logo{
+	float: left;
+	padding: 10px 100px;
+}
+nav{
+	width: 60%;
+	float: right;
+	padding: 22px 5px;
+}
+#logo img{
+	height: 60px;
+}
+nav a{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+	font-weight: 300;
+}
+nav li{
+	display: inline-block;
+	margin-left: 40px;
+	text-transform: uppercase;
+
+}
+#showcase{
+	padding-top: 1px;
+	height: 700px;
+	background-image: url(../img/bckg1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed ;
+	position: relative;
+}
+.overlay{
+	position: absolute;
+	height: 700px;
+	width: 100%;
+	background-color: rgb(0, 0, 0,0.6);
+	
+}
+.container{
+	margin: 0px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	position: absolute;
+	height: 700px;
+}
+.text-bg{
+	text-align: center;
+	font-size: 50px;
+	color: #E5E5CB;
+	animation: uvecanje 1s ease-in-out;
+	
+}
+
+.text-bg h1{
+	text-transform: uppercase;
+}
+.text-bg p{
+	font-weight: 400;
+	font-style: italic;
+}
+@keyframes uvecanje {
+  0% {
+    font-size: 5px;
+  }
+  100% {
+    font-size: 50px;
+ }
+ }
+.box{
+	height: 450px;
+	width: 100%;
+	background-color: #E5E5CB;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+.trikolon{
+	display: flex;
+	width: 80%;
+	height: 400px;
+	margin: 0px auto;
+	justify-content: space-between;
+}
+.minibox{
+	
+	width: 30%;
+	background-color: #D5CEA3;
+	height: 340px;
+	margin: 25px;
+	box-shadow: 10px 10px 20px 5px #888888;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: center;
+	color: #3C2A21;
+	border: 4px solid #3C2A21 ;
+	border-radius: 30px;
+	transition: transform 0.5s ease;
+}
+.minibox h1{
+	font-size: 40px;
+
+	
+}
+.minibox p{
+	font-size: 24px;
+	word-wrap: normal;
+	margin-top: 10px;
+}
+.minibox:hover {
+        transform: scale(1.1);
+      }
+.bxs-drink{
+	font-size: 70px;
+}
+.bx-coffee-togo{
+	font-size: 70px;
+}
+.bxs-bowl-hot{
+	font-size: 70px;
+}
+.drugi{
+	background-color: #3C2A21;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.tekstdrugi{
+	width: 35%;
+	height: 450px;
+	margin-top: 20px;
+	color: #E5E5CB;
+	font-size: 28px;
+}
+.slikadrugi{
+	width: 35%;
+	height: 450px;
+	background-image: url('../img/tim.jpg');
+	background-position: center;
+	background-size: cover;
+	border: 3px solid #D5CEA3;
+	border-radius: 40px;
+}
+.tekstdrugi h1{
+	margin-bottom: 60px;
+	margin-top: 10px;
+}
+.treci{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.slikatreci{
+	background-image: url('../img/kafa.jpg');
+	height: 450px;
+	width: 35%;
+	background-size: cover;
+	background-position: center;
+	border: 1px solid #3C2A21;
+	border-radius: 40px;
+}
+.teksttreci{
+	width: 35%;
+	height: 450px;
+	margin-top: 20px;
+	color: #3C2A21;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 20px;
+
+
+
+}
+.teksttreci button{
+	background-color: #3C2A21;
+	padding: 8px 15px;
+	margin-top: 30px;
+	
+	font-family: 'Genos', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	border-radius: 10px;
+}
+.teksttreci a{
+	text-decoration: none;
+	color: #E5E5CB;
+}
+footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100px;
+	background-color: #1A120B;
+}
+.footer-box{
+	color: #E5E5CB;
+	font-size: 20px;
+}
+
+.prvif{
+	font-size: 25px;
+
+}
+.footer-box li {
+	list-style: none;
+	
+}
+.footer-box a{
+	text-decoration: none;
+	color: #E5E5CB;
+}
+.trecif{
+	font-size: 16px;
+}
+#showcase-meni{
+	padding-top: 1px;
+	height: 700px;
+	background-image: url(../img/bckg2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed ;
+	position: relative;
+}
+.meni{
+	height: 450px;
+	width: 80%;
+	margin: 0px auto;
+	border: 4px solid #3C2A21;
+	background-color: #d9d3b0;
+}
+
+.meni-item{
+	width: 50%;
+	height: 90px;
+	float: left;
+	text-align: center;
+	color: #3C2A21;
+}
+.menibold{
+	font-size: 40px;
+	font-weight: 500px;
+}
+.meni-item p {
+	font-size: 25px;
+	
+}
+#showcase-galerija{
+	padding-top: 1px;
+	height: 700px;
+	background-image: url(../img/bckg3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed ;
+	position: relative;
+}
+#showcase-kontakt{
+	padding-top: 1px;
+	height: 700px;
+	background-image: url(../img/bckg4.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed ;
+	position: relative;
+}
+#showcase-autor{
+	padding-top: 1px;
+	height: 700px;
+	background-image: url(../img/bckg5.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed ;
+	position: relative;
+}
+.box-galerija{
+	width: 100%;
+	height: 850px;
+	background-color: #E5E5CB;
+	padding-top: 30px;
+}
+.box-galerija-row{
+	height: 400px;
+	width: 65%;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px auto
+}
+.slika-galerija{
+	height:95%;
+	border-radius: 10px;
+
+}
+.slika-galerija img{
+	height: 95%;
+	margin: 0px auto;
+	border-radius: 25px;
+	transition: transform 0.3s ease-in-out;
+}
+.slika-galerija:hover img{
+	 transform: scale(1.2);
+  	filter: grayscale(0%);
+}
+.autor{
+	display: flex;
+	justify-content: center;
+	width: 70%;
+	height: 450px;
+	margin: 0px auto;
+	color: #3C2A21
+}
+.leva{
+	width: 40%;
+	
+}
+.leva img{
+	height: 100%;
+	border-radius: 25px;
+
+}
+.desna{
+	width: 20%;
+	margin-top: 100px;
+	
+}
+.desna h1{
+	font-size: 35px;
+}
+.desna p{
+	font-size: 25px;
+}
+.naslov-kontakt{
+	width: 80%;
+	margin: 0px auto 20px auto;
+	text-align: center;
+}
+.naslov-kontakt h1{
+	font-size: 50px;
+	margin-bottom: 15px;
+}
+.naslov-kontakt p{
+	font-size: 25px;
+}
+.gornji-forma{
+	width: 50%;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-around;
+
+}
+.polje-forma{
+	padding: 10px 20px;
+}
+.polje-forma label{
+	display: block;
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+.polje-forma input{
+	padding: 10px 20px;
+	background-color: #D5CEA3;
+	border: 2px solid #3C2A21;
+	border-radius: 10px;
+}
+.donji-forma {
+	width: 50%;
+	margin: 0px auto;
+}
+.donji-forma textarea{
+	padding: 10px 20px;
+	width: 100%;
+	height: 120px;
+	background-color: #D5CEA3;
+	border: 2px solid #3C2A21;
+	border-radius: 10px;
+}
+.donji-forma label{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.donji-forma input[type="submit"]{
+	padding: 10px 20px;
+	background-color: #D5CEA3;
+	border: 2px solid #3C2A21;
+	border-radius: 10px;
+	margin-top: 15px;
+	color: #3C2A21 ;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.kontakt{
+	color: #3C2A21 ;
+}
